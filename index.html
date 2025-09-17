@@ -4,13 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR-Code-Component</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: hsl(212, 45%, 89%);
+        }
+
+        .card{
+            height: 400px;
+            width: 18rem;
+            padding: 1rem;
+            background-color: white;
+            border-radius:8px;
+
+            /* Alignment */
+            margin: 0 auto;
+        }
+
+        .card-image-top{
+            border-radius: 8px;
+        }
+
+        .card-title{
+            margin: 1rem 0;
+        }
+
+        .card-text{
+            font-size: small;
+            text-align: justify;
+        }
+    
+    </style>
 </head>
 <body>
     <div class="card">
-        <img src="./assests/image-qr-code.png" alt="QR Code" class="card-image-top">
+        <img src="./assests/image-qr-code.png" alt="QR Code" height="70%" width="100%" class="card-image-top">
         <div class="car-body">
             <h5 class="card-title">Improve your frontend skills by building projects</h5>
-            <p class="card-body">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+            <p class="card-text">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
         </div>
     </div>
 </body>
